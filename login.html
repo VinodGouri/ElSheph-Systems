@@ -11,6 +11,7 @@
             margin: 0;
             padding: 0;
             background-color: #f0f0f0;
+            background-image: url( src="C:\Users\hp\Desktop\loginpage.jpg");
         }
 
         .container {
@@ -70,21 +71,22 @@
             margin-right: 10px;
         }
     </style>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <div class="container">
-        <h2>Login</h2>
+        <p class="login-head">Login</p>
         <form action="#" method="POST">
             <input type="text" name="username" placeholder="Username" required><br>
             <input type="password" name="password" placeholder="Password" required><br>
-            <input type="submit" value="Login">
+            <button class="login-button">Login</button>
         </form>
         <div class="register-link">
             <a href="#registration">Register</a>
         </div>
         <div class="login-with">
-            <a href="https://www.google.com">Login with Google</a>
-            <a href="https://www.linkedin.com">Login with LinkedIn</a>
+            <a class="google" href="https://www.google.com">Login with Google</a>
+            <a class="linkedin" href="https://www.linkedin.com">Login with LinkedIn</a>
         </div>
     </div>
 
