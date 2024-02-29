@@ -19,9 +19,32 @@
     box-shadow: 0.5px 0.5px 1px rgb(39, 39, 39);
     cursor: pointer;
 }
-.google,
+.google{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: inline;
+    margin:0%;
+    
+}
 .linkedin {
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+    
+}
+.google:hover,.linkedin:hover{
+    text-decoration: underline;
+}
+.g-logo{
+    position: relative;
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 0px;
+    padding-top: 2px;
+    margin-top: 6px;
 }
 .login-head{
     font-family: 'Courier New', Courier, monospace;
@@ -30,4 +53,38 @@
     font-weight: bold;
     font-size: 28px;
     text-align: center;
+}
+.image{
+    position: absolute;
+    display: inline-block;
+    margin-left: 2px;
+    margin-top: 4px;
+    
+
+}
+.pass-img{
+    position: absolute;
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+.img-text{
+    position: absolute;
+    font-size: small;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(251, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    visibility: hidden; 
+    opacity: 0; 
+    transition: visibility 0s, opacity 0.5s ease; 
+}
+.pass-img:hover .img-text{
+    visibility: visible; 
+    opacity: 1;
+}
+.pass-img:hover{
+    cursor: pointer;
 }
