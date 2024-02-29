@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 body{
-    background-color: whitesmoke;
+    background-image: url("https://img.freepik.com/free-vector/abstract-digital-grid-vector-black-background_53876-111550.jpg?size=626&ext=jpg&ga=GA1.1.967060102.1709078400&semt=ais");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .container{
     display: flex;
-    
+    align-items: center;
     height: 500px;
     width: 400px;
-    border: 1px solid black;
+    border: 0.5px solid rgba(0, 0, 0, 0.096);
+    border-radius: 20px;
     margin: auto;
     margin-top: 50px;
 }
@@ -20,17 +24,20 @@ body{
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background-color: whitesmoke;
+   background-color: transparent;
+   filter: blur(60%);
+    
 
 
 }
 .form h1{
     font-size: 3rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif;
     margin: 40px;
     margin-bottom: 10px;
     margin-top: 30px;
     letter-spacing: 3px;
+    color:white;
 }
 .box{
     padding: 12px;
@@ -40,12 +47,27 @@ body{
     outline: none;
     border-radius: 20px;
 
+
+
+}
+.icon{
+    position:absolute;
+    display: inline;
+    margin-left: 320px;
+    margin-top: 118px;
+
+}
+.lock{
+    position:absolute;
+    display: inline;
+    margin-left: 320px;
+    margin-top: 188px;
 }
 .login-button{
     padding: 12px;
     width: 40%;
     margin-top: 20px;
-    background-color: black;
+    background-color:maroon;
     color: white;
     font-weight: bold;
     border: none;
@@ -55,12 +77,12 @@ body{
 }
 .login-button:hover{
     cursor: pointer;
-    background-color: maroon;
+    background-color: black;
     
 }
 .form a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin-top: 20px;
 }
 .form a:hover{
@@ -69,4 +91,5 @@ body{
 .login-with{
     display: flex;
     flex-direction: column;
+    color: white;
 }

@@ -3,29 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+    body{
+        background-image: url("https://img.freepik.com/free-vector/abstract-digital-grid-vector-black-background_53876-111550.jpg?size=626&ext=jpg&ga=GA1.1.967060102.1709078400&semt=ais");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
 .container{
     display: flex;
     height: 500px;
     width: 800px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.096);
     margin: auto;
     margin-top: 50px;
+    border-radius: 20px;
 }
 .form{
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: transparent
 }
 .form h1{
     font-size: 3rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     margin: 40px;
+    padding-left: 30px;
     margin-bottom: 10px;
     margin-top: 30px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    color: white;
 }
 .box{
   padding: 12px;
@@ -40,29 +50,39 @@ label{
     text-align: right;
     padding: 12px;
     padding-right: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-weight: bold;
+    outline: none;
+    border: none;
+    color: white;
 }
 .reg-button{
     padding: 12px;
     width: 40%;
     margin-top: 20px;
-    background-color: black;
+    margin-left: 28%;
+    background-color:maroon;
     color: white;
-    font-weight: bold;
+    font-weight: 18px;
+    font-size: 18px;
     border: none;
     outline: none;
     border-radius: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 .reg-button:hover{
     cursor: pointer;
-    background-color: maroon;
+    background-color: black;
 }
 #login{
     text-decoration: none;
     margin-top: 22px;
     font-size: larger;
+    margin-left: 30%;
+    color: white;
 }
 #login:hover{
-    color: maroon;
+    color: black;
     text-decoration: underline;
+    font-weight: bold;
 }
