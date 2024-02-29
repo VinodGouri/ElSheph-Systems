@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+    
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: whitesmoke;
+
+
+}
+.form h1{
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+
+}
+.login-button{
+    padding: 12px;
+    width: 40%;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.login-button:hover{
+    cursor: pointer;
+    background-color: maroon;
+    
+}
+.form a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.form a:hover{
+    color: rgb(165, 8, 8);
+}
+.login-with{
+    display: flex;
+    flex-direction: column;
+}
