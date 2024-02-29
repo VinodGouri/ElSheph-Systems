@@ -74,6 +74,7 @@ body{
     outline: none;
     border-radius: 20px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: large;
 }
 .login-button:hover{
     cursor: pointer;
@@ -84,12 +85,58 @@ body{
     text-decoration: none;
     color: white;
     margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
-.form a:hover{
-    color: rgb(165, 8, 8);
-}
+
+
 .login-with{
     display: flex;
     flex-direction: column;
     color: white;
+}
+.new-account{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 60px;
+    margin-top: -45px;
+}
+.google-logo{
+    position: absolute;
+    margin-left: 8px;
+    margin-top: -5.5px;
+    border-radius: 50%; 
+}
+.linkedin-logo{
+    position: absolute;
+    margin-left: 6px;
+    margin-top: -5px;
+    border-radius: 50%; 
+}
+.g-btn{
+    width: 210px;
+    height: 30px;
+    border: 1px;
+    border-radius: 20px;
+    background-color: maroon;
+}
+.g-btn:hover{
+    background-color: black;
+}
+.l-btn{
+    width: 220px;
+    height: 30px;
+    border: 1px;
+    border-radius: 20px;
+    background-color: maroon;
+    margin-top: 20px;
+}
+.l-btn:hover{
+    background-color: black;
+}
+.forget:hover{
+    color: maroon;
+}
+.reg:hover{
+    color: maroon;
 }
