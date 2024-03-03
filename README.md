@@ -1,2 +1,0 @@
-# ElSheph-Systems
-software
