@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header{
+    margin-top: 8px;
+    margin-bottom: 3px;
+    color: firebrick;
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-stretch: expanded;
+}
+.header:hover{
+    color: coral;
+}
