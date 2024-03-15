@@ -44,6 +44,12 @@
     outline: none;
     border-radius: 20px;
 }
+.box:hover{
+    border-color: maroon;
+}
+.box:active{
+    border-color: red;
+}
 label{
     display: inline-block;
     width: 600px;

@@ -46,9 +46,12 @@ body{
     border: 1px solid black;
     outline: none;
     border-radius: 20px;
-
-
-
+}
+.box:hover{
+    border-color: maroon;
+}
+.box:active{
+    border-color: red;
 }
 .icon{
     position:absolute;

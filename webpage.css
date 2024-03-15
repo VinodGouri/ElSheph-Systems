@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: aliceblue;
+    background-color:rgb(26, 25, 25);
 }
 .head{
     display: flex;
@@ -14,12 +14,19 @@ body{
 .header{
     margin-top: 8px;
     margin-bottom: 3px;
-    color: firebrick;
+    color: white;
     font-size: 64px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-stretch: expanded;
 }
-.header:hover{
-    color: coral;
+.index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.index-div{
+    width: 100%;
+    margin-left: 120px;
 }
